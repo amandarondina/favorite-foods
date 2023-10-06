@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+NP+Hmong:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100dvh;
+  font-family: "Noto Serif NP Hmong", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(232, 241, 235);
+  background: linear-gradient(
+    90deg,
+    rgba(232, 241, 235, 1) 47%,
+    rgba(221, 234, 225, 1) 47%
+  );
+}
+
+.bg {
+  height: 50%;
+  width: 10%;
+  left: 45%;
+  top: 50%;
+  border-radius: 70% 0 0 0;
+  position: absolute;
+  background-color: rgba(221, 234, 225, 1);
+  overflow: hidden;
+}
+
+.bg-2 {
+  height: 50%;
+  width: 20%;
+  right: 45%;
+  bottom: 60%;
+  border-radius: 0 40% 50% 0;
+  position: absolute;
+  background-color: rgb(232, 241, 235);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.meals {
+  font-weight: 700;
+  font-size: 2rem;
+  padding: 5rem 7rem;
+  line-height: 2.5rem;
+}
+
+.meal-card {
+  position: relative;
+  height: auto;
+  width: 32%;
+  min-width: 28rem;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+  box-shadow: 2px 2px 15px #7b7b7b98;
+}
+
+.top {
+  gap: 10px;
+  border-radius: 10px 10px 0 0;
+  background-color: #e5e6e5;
+  padding: 1rem;
+}
+
+.left {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.url {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #696868;
+  border-radius: 3px;
+}
+
+.link {
+  font-family: "Lato", sans-serif;
+  border-radius: 3px;
+  padding: 0.2rem 0 0.4rem 0.2rem;
+  width: 96%;
+  background-color: #f3f3f2;
+  border: 1px solid #aeaeae;
+}
+
+.circles {
+  width: 35%;
+}
+.arrows {
+  width: 50%;
+  color: #a7a7a7bb;
+  font-size: 1.4rem;
+}
